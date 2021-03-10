@@ -24,4 +24,5 @@ jobs:
       with:
         to: -345532686
         token: 1558913823:AAHFruM9IKBzngZkMFvDEyVWCAjW_XsMBTY
-  
+        message: 🤠dev:${{ github.actor}} |🗃️ Repo:${{github.repository}} | Act:${{github.action}}
+
