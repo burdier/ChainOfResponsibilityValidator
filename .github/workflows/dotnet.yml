@@ -22,6 +22,6 @@ jobs:
     - name: send default message
       uses: appleboy/telegram-action@master
       with:
-        to: +18095175523
+        to: -345532686
         token: 1558913823:AAHFruM9IKBzngZkMFvDEyVWCAjW_XsMBTY
   
