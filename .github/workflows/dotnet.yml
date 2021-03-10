@@ -1,4 +1,4 @@
-name: .NET
+⬇️name: .NET
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
       with:
         to: -345532686
         token: 1558913823:AAHFruM9IKBzngZkMFvDEyVWCAjW_XsMBTY
-        message: 🤠dev: ${{ github.actor}} | 🗃️ Repo:${{github.repository}} ⚙️ Act:${{github.action}} status ⬇️
+        message: 🤠dev:${{ github.actor}} | 🗃️ Repo:${{github.repository}} ⚙️ Act:${{github.action}} status ⬇️
         sticker: img/ok.webp
     - name: send fail
       uses: appleboy/telegram-action@master
@@ -35,4 +35,3 @@ jobs:
         token: 1558913823:AAHFruM9IKBzngZkMFvDEyVWCAjW_XsMBTY
         message: 🤠dev:${{ github.actor}} |🗃️ Repo:${{github.repository}} ⚙️  Act:${{github.action}} status ⬇️
         sticker: img/fail.webp
-
