@@ -20,7 +20,7 @@ jobs:
     - name: deploy 
       run: ./deploy.sh
     - name: send default message
-      uses: appleboy/telegram-action@master
+      uses: appleboy/telegram-action@ae54341a85fdcf97cbea354678d7b8c062286c15
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
