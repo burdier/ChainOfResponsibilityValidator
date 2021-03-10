@@ -5,7 +5,7 @@ on: [push]
 jobs:
   build:
 
-    runs-on: blade-runner
+    runs-on: prueba
 
     steps:
     - uses: actions/checkout@v1
