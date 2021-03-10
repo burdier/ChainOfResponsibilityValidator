@@ -26,5 +26,5 @@ jobs:
         to: -345532686
         token: 1558913823:AAHFruM9IKBzngZkMFvDEyVWCAjW_XsMBTY
         message: 🤠dev:${{ github.actor}} |🗃️ Repo:${{github.repository}} | Act:${{github.action}}
-        sticker: https://data1.sticker.fan/stickers_storage/2019/08/10/file_1661317.webp
+        sticker: https://data1.sticker.fan/stickers_storage/2019/07/28/file_1489724.webp
 
